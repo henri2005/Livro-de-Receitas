@@ -14,7 +14,7 @@ echo  $variavel;
 // um = é uma atribuição de valor a uma variável
 $valor1 = 10;
 
-// == é uma comparação entre os dois lados, analisando somente o valor
+// == é uma comparação entre os dois lados, analisando somente o valor (LEMBRA DISSO)
 // === é uma comparação COMPLETA entre os dois lados, entre seus valores e seus TIPOS de dados (STRING, INT, ETC...). É O MAIS RECOMENDADO.
 $valor1 == 10;
 $valor1 === 10;
@@ -86,3 +86,11 @@ echo '2x7 = ' . ($tabuada * 7) . '<br>';
 echo '2x8 = ' . ($tabuada * 8) . '<br>';
 echo '2x9 = ' . ($tabuada * 9) . '<br>';
 echo '2x10 = ' . ($tabuada * 10) . '<br>';
+
+echo '<br>';
+
+if(($tabuada * 11) == 23):
+    echo 'É uma conta certa';    
+else:
+        echo 'É uma conta errada';
+endif;
